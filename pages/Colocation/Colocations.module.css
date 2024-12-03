@@ -1,0 +1,1300 @@
+.root {
+    --heading-font-size : calc(clamp(1.875rem, 3.356vw - 0.277rem, 3.75rem));
+}
+
+.Colocation .CTA_button {
+    font-size: calc(clamp(0.938rem, 1.007vw + 0.292rem, 1.5rem));
+}
+.CTA_bottom_line {
+    width: 13vw;
+    left: 22%;
+}
+
+.colo_heading {
+    transform:  translateY(-20px) ;
+    opacity: 1;
+}
+.colo_bannerContent {
+    position: fixed;
+    width: 100vw;
+    background: rgba(0, 0, 0, 0.884);
+    top: 0;
+    left: 0;
+    z-index: 99999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 1s ease;
+}
+.colo_banner_content .center_btn_colo{
+    border: 1px solid #fff;
+    border-radius: 50px;
+    color: #fff;
+    padding: 0.5vw 1vw;
+}
+.Entry_overlay {
+    position: fixed;
+    width: 100vw;
+ 
+    background-color: #000408d3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+}
+.Entry_overlay button {
+    border: 1px solid #fff;
+    border-radius: 50px;
+    color: #fff;
+    padding: 0.8vh 0.8vw;
+    font-size: 1.2vw;
+}
+.colocationBanner {
+    position: relative;
+    width: 100%;
+}
+
+.banner_video video {
+    position: relative;
+    top: 0;
+    width: 100%;
+    
+}
+
+.colocationBanner::after {
+    content:  "";
+    position: absolute;
+    width: 100%;
+    height: 8vh;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(0deg, rgba(0,5,14,1) 46%, rgba(0,5,14,0) 95%);
+}
+
+.bannerVideo{
+    width: 100%;
+}
+.headingBanner{
+   
+    text-align: right;
+    color: white;
+    font-size: calc(clamp(1.875rem, 3.356vw - 0.277rem, 3.75rem));
+}
+.headingBanner h2{
+    font-size: calc(clamp(1.875rem, 3.356vw - 0.277rem, 3.75rem));
+}
+.bannerVideo{
+    width: 100%;
+}
+.bannerContent {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 48%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(263deg, #000414 59%, #00050e00 87%);
+    justify-content: center;
+    align-items: flex-end;
+}
+.bannerContent .Manage_secu_banner_text {
+    font-size: calc(clamp(2.188rem, 3.915vw - 0.323rem, 4.375rem));;
+    font-weight: 500;
+    text-align: end;
+}
+.bannerContent h3 span{
+    background-image: linear-gradient(90deg, #00C2FF 42%, #0596FF 50%);
+    background-size: 100%;
+   font-weight: 800;
+    background-repeat: repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+}
+.bannerContent p {
+    font-size: calc(0.2em + 1.5vw + 9px);
+    width: 58%;
+    text-align: right;
+    font-weight: 300;
+    padding: 6vh 0;
+    /* display: flex; */
+    /* justify-content: flex-end; */
+    margin-left: auto;
+}
+
+
+.Colo_CTA_btn {
+    text-align: end;
+    margin-top: 2vw;
+}
+.bannerContnetInner{
+    padding: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+/* ------------------------------------------------------------------------ */
+.colo_partner {
+    position: relative;
+    width: 100%;
+    padding: 2vh 3vw;
+    background-color: #00050A;
+    
+}
+.colo_partner .heading  {
+    margin-bottom: 8vh;
+    position: relative;
+    z-index: 1;
+    width: 100%;
+}
+.colo_partner .heading h3 {
+    text-align: center;
+    font-size: 3vw;
+    font-weight: 300;
+}
+.colo_partner .heading h3 span {
+    text-align: center;
+    font-size: 3vw;
+    font-weight: 500;
+} 
+.colo_partner::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 14px;
+    background-color: #00050A;
+    top: -1vh;
+    left: 0;
+}
+.colo_partner .bg_linear_gradient {
+    position: absolute;
+    width: 100%;
+    height: 19%;
+    top: 59%;
+    left: 0;
+    z-index: 0;
+    border-radius: 50%;
+    filter: blur(49px);
+    background: linear-gradient(94deg, rgba(0, 102, 255, 1) 13%, rgba(0, 230, 255, 1) 100%);
+}
+
+  
+
+.powerOfcolocation {
+    position: relative;
+    width: 100%;
+    background-color: #00050E;
+}
+.powerOfcolocation .PowerOfColocation-innerdiv {
+    width: 100%;
+    height: 100%;
+    padding: 3vw 0;
+}
+.powerOfcolocation .PowerOfColocation-innerdiv .colocation-header {
+    padding: 2vw 5vw 5vw 5vw;
+    position: relative;
+}
+.Horizontol_slider {
+    display: flex;
+    margin-top: 5vh;
+    }
+    .Horizontol_slider .slide_list {
+        margin-left: 5vw;
+    }
+    .Horizontol_slider .slide_list .slide_list_inner {
+        display: flex;
+        justify-content: space-around;
+    }
+    .Horizontol_slider .slide_list .slide_list_inner .slide_item {
+        width: 40vw;
+        height: 50vh;
+        /* background-color: aqua; */
+        position: relative;
+        margin: 2vw 2vw;
+    }
+    
+    .Horizontol_slider .slide_list .slide_list_inner .slide_item img {
+        width: 100%;
+        height: 100%;
+    }
+.powerOfcolocation .PowerOfColocation_innerdiv  .Horizontol_slider .slide_list .slide_list_inner .slide_item  {
+    width: 30vw;   
+    margin: 2vw 1vw;
+}
+.powerOfcolocation .PowerOfColocation_innerdiv  .Horizontol_slider  {
+    margin-top: 0;
+    overflow: hidden;
+}
+
+.powerOfcolocation .PowerOfColocation_innerdiv  .Horizontol_slider .slide_list .slide_list_inner .slide_item  .image_div {
+    width: 100%;
+    height: 36vh;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.powerOfcolocation .PowerOfColocation_innerdiv  .Horizontol_slider .slide_list .slide_list_inner .slide_item .slide_title {
+    font-size:  calc(clamp(0.938rem, 1.678vw - 0.138rem, 1.875rem));
+    padding: 0.7vh 0 0 1vw;
+    color: #fff;
+}
+.powerOfcolocation .PowerOfColocation_innerdiv .colocation_header .third_section_head {
+    font-size: calc(clamp(1.875rem, 3.356vw - 0.277rem, 3.75rem));
+    text-align: center;
+    font-weight: 500;
+    line-height: 3vw;
+    margin-bottom: 2vw;
+    opacity: 0;
+    transform: translateY(-40px);
+}
+.powerOfcolocation .PowerOfColocation_innerdiv .colocation_header .third_section_subtitle {
+    position: absolute;
+    top: 10%;
+    font-size: calc(clamp(1.875rem, 3.356vw - 0.277rem, 3.75rem));
+    text-align: center;
+    font-weight: 500;
+    width: 100%;
+    line-height: 5vw;
+    left: 0;
+    opacity: 0;
+    padding: 0 13vw;
+    transform: translateY(-40px);
+}
+/* .powerOfcolocation .PowerOfColocation-innerdiv .colocation-header h3 {
+    font-size: var(--heading-font-size);
+    text-align: center;
+    font-weight: 400;
+    line-height: 5vw;
+    margin-bottom: 3vw;
+} */
+
+.powerOfcolocation .PowerOfColocation_innerdiv .colocation_header .third_section_question {
+    font-size: calc(clamp(1.125rem, 1.566vw + 0.121rem, 2rem));
+    text-align: center;
+    color: #fff;
+    z-index: 2;
+    opacity: 0;
+    transform: translateY(-40px);
+}
+
+/* ---------------------------------------------------- */
+.world_class_data_center {
+    position: relative;
+    width: 100%;
+    background-color: #00050E;
+    color: #fff;
+}
+.world_class_data_center .world_class_data_center_innerdiv .header {
+    position: relative;
+    z-index: 2;
+}
+.world_class_data_center .world_class_data_center_innerdiv .header h3 {
+    font-size: calc(clamp(1.875rem, 3.356vw - 0.277rem, 3.75rem));
+    text-align: center;
+    font-weight: 500;
+    position: relative;
+    z-index: 2;
+    padding: 0 7vw 1vw 7vw;
+    margin-bottom: 3vw;
+}
+.world_class_data_center .world_class_data_center_innerdiv .header h3 span {
+    font-weight: 600;
+}
+.world_class_data_center .world_class_data_center_innerdiv .header p {
+    font-size: calc(0.2em + 0.5vw + 14px);
+    text-align: center;
+}
+.world_class_data_center .world_class_data_center_innerdiv .Data_center_service_counter {
+    width: 100%;
+    padding: 0 16vw;
+    margin-top: 10vh;
+}
+.world_class_data_center .world_class_data_center_innerdiv .Data_center_service_counter .counter_grid {
+    display: flex;
+    justify-content: space-between;
+}
+.world_class_data_center .world_class_data_center_innerdiv .Data_center_service_counter .counter_grid .counter_box {
+    display: flex;
+    align-items: center;
+}
+.world_class_data_center .world_class_data_center_innerdiv .Data_center_service_counter .counter_grid .counter_box .number span {
+    background-image: linear-gradient(180deg, #00C2FF 42%, #0596FF 50%);
+    background-size: 100%;
+    font-size: calc(0.2em + 1.5vw + 40px);
+    font-weight: 800;
+    background-repeat: repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+}
+  .world_class_data_center .world_class_data_center_innerdiv .Data_center_service_counter .counter_grid .counter_box .number_title {
+    font-size: calc(clamp(0.75rem, 1.342vw - 0.111rem, 1.5rem));
+width: 10vw;
+padding-left: 1vw;
+  }
+
+  /* --------------------------------------- */
+  .DC_map {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+  }
+  .DC_map::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 12vh;
+    left: 0;
+    background: linear-gradient(180deg, rgba(0, 5, 14, 1) -11%, rgba(0, 0, 0, 0) 79%);
+}
+.DC_map::before {
+    content: "";
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    height: 6vh;
+    z-index: 2;
+    left: 0;
+    background: linear-gradient(0deg, rgba(0, 5, 14, 1) 0%, rgba(0, 0, 0, 0) 79%);
+}
+  .DC_map .map_image {
+    width: 100%;
+    height: 100%;
+    
+  }
+  
+  .DC_map .Data_Center .DC_image.hide_map_dc {
+    transform: scale(0.4);
+    opacity: 0;
+  }
+
+  .DC_map .Data_Center .DC_image.show_map_dc {
+    transform: scale(1);
+    opacity: 1;
+  }
+  .DC_map .map_image img {
+    width: 100%;
+    height: 100%;
+  }
+  .DC_map .radial_overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    z-index: 5;
+    left: 0;
+    pointer-events: none;
+    background:radial-gradient(circle, rgba(0, 0, 0, 0) 44%, #000408 84%, #00050A 0%);
+}
+.DC_map .DC_rack {
+    position: absolute;
+ 
+    width: 1.5vw;
+    animation: FloatingMove 1.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+.explore-plan .plans .plan-outline:nth-child(2n) .plan:before {
+    content: "";
+    position: absolute;
+    top: -15%;
+    border-radius: 50%;
+    width: 100%;
+    overflow: hidden;
+    height: 31%;
+    left: 0;
+    filter: blur(78px);
+    background: linear-gradient(96deg,#00e6ff -18%,#06f 104%);
+}
+@keyframes FloatingMove {
+    0% {transform: translateY(0);}
+    50%{transform: translateY(-10px);}
+    100% {transform: translateY(0);}
+  }
+  .DC_map .nashik_Data_center {
+    position: absolute;
+    left: 44vw;
+    top: 42vh;
+}
+.DC_map .airoli_Data_center {
+    position: absolute;
+    top: 47vh;
+    left: 43vw;
+}
+ .DC_map .mohali_Data_center {
+    position: absolute;
+    top: 14vh;
+    left: 46vw;
+
+ }
+ .DC_map .nashik_Data_center {
+    position: absolute;
+    top: 43vh;
+    left: 45vw;
+ }
+ .DC_map .banglore_Data_center {
+    position: absolute;
+    top: 70vh;
+    left: 46vw;
+}
+.DC_map .mumbai_Data_center {
+    position: absolute;
+    top: 51vh;
+    left: 41vw;
+}
+.DC_map .nashik_Data_center .DC_image_nashik {
+    width: 8vw;
+    height: 8vw;
+    bottom: 0;
+    border-radius: 15px;
+    position: absolute;
+    
+    transition: all 0.5s ease-in-out;
+    background-image: url('../../public/colocation/Nashik.png');
+    background-size: cover;
+}
+.DC_map .mohali_Data_center .DC_image_mohali {
+    width: 8vw;
+    height: 8vw;
+    bottom: 0;
+    border-radius: 15px;
+    position: absolute;
+    
+    transition: all 0.5s ease-in-out;
+    background-image: url('../../public/colocation/mohali.png');
+    background-size: cover;
+}
+.DC_map .mumbai_Data_center .DC_image_mumbai {
+    width: 8vw;
+    height: 8vw;
+    bottom: 3vw;
+    border-radius: 15px;
+    position: absolute;
+    transform: translateX(-7vw);
+    transition: all 0.5s ease-in-out;
+    background-image: url('../../public/colocation/mumbai.png');
+    background-size: cover;
+}
+.DC_map .banglore_Data_center .DC_image_banglore {
+    width: 8vw;
+    height: 8vw;
+    bottom: 0;
+    border-radius: 15px;
+    position: absolute;
+    
+    transition: all 0.5s ease-in-out;
+    background-image: url('../../public/colocation/banglore.png');
+    background-size: cover;
+}
+.DC_map .airoli_Data_center .DC_image_airoli {
+    width: 8vw;
+    height: 8vw;
+    bottom: 0;
+    border-radius: 15px;
+    position: absolute;
+    
+    transition: all 0.5s ease-in-out;
+    background-image: url('../../public/colocation/airoli.png');
+    background-size: cover;
+}
+/* ------------------------------------------------------------------------------------
+ */
+
+ .explore_plan{
+    position: relative;
+    width: 100%;
+    padding: 3vw 2vw;
+    background-color: #00050E;
+    display: flex;
+    flex-direction: column;
+}
+.explore_plan::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 17vh;
+    top: -12%;
+    left: 0;
+    background: linear-gradient(0deg, rgba(0, 5, 14, 1) 11%, rgba(0, 0, 0, 0) 79%);
+}
+.explore_plan .header h3 {
+    font-size: calc(clamp(1.875rem, 3.356vw - 0.277rem, 3.75rem));
+  font-weight: 500;
+  padding-bottom: 1vw;
+  margin-bottom: 3vw;
+  padding: 0 10vw;
+  text-align: center;
+  position: relative;
+  z-index: 2;
+  color: #fff;
+}
+.explore_plan .header {
+    position: relative;
+    z-index: 2;
+}
+
+.explore_plan .header h3 span {
+    font-weight: 600;
+}
+.explore_plan .header p {
+    font-size:calc(0.5em + 0.5vw + 8px);
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.explore_plan .plans {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    padding: 0 5vw; 
+    color: #fff;
+}
+.explore_plan .plans .plan_outline {
+    padding: 1px;
+    background: linear-gradient(180deg, rgba(81,192,255,1) 22%, rgba(0,5,10,1) 98%);
+    border-radius: 43px;
+    overflow: hidden;
+    
+}
+.explore_plan .plans .plan {
+    background: #00050A;
+    position: relative;
+    height: 100%;
+    /* border-radius: 10px; */
+    padding: 2.5vh 2vw;
+    border-radius: 43px;
+    width: 26vw;
+}
+.explore_plan .plans .plan_outline:nth_child(odd) .plan::before {
+    content: "";
+    position: absolute;
+    top: -13%;
+    border-radius: 50%;
+    width: 100%;
+    overflow: hidden;
+    height: 20%;
+    left: 0;
+    filter: blur(105px);
+    background: linear-gradient(96deg, rgba(0, 230, 255, 1) -18%, rgba(0, 102, 255, 1) 104%);
+}
+.explore_plan .plans .plan_outline:nth_child(even) .plan::before {
+    content: "";
+    position: absolute;
+    top: -15%;
+    border-radius: 50%;
+    width: 100%;
+    overflow: hidden;
+    height: 31%;
+    left: 0;
+    filter: blur(78px);
+    background: linear-gradient(96deg, rgba(0, 230, 255, 1) -18%, rgba(0, 102, 255, 1) 104%);
+}
+
+/* .explore-plan .plans .plan.popular span {
+    font-size:calc(0.5em + 0.5vw + 6px) ;
+    font-weight: 400;
+    margin-bottom: 0.5vh;
+    position: relative;
+}  */
+.explore_plan .plan h2 {
+    position: relative;
+    font-size: calc(clamp(1.313rem, 2.349vw - 0.194rem, 2.625rem));
+    font-weight: 700;
+    margin-bottom: 3vw;
+}
+.explore_plan .plan h2 span {
+    font-size: calc(clamp(0.875rem, 0.895vw + 0.301rem, 1.375rem));
+}
+.explore_plan .plan h2::after {
+    content: "";
+    position: absolute;
+    bottom: -15px;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background-color: #51C0FF;
+}
+.explore_plan .plans .plan_outline:nth_child(odd) .plan h2{
+    padding-top: 1.3vw;
+ }
+.plan ul {
+    list-style: none;
+    padding: 0 1.5vw;
+    margin: 0 0 20px 0;
+}
+.plan ul li:nth-child(1) {
+    font-weight: 600;
+    margin-bottom: 1vh;
+}
+.plan ul li {
+    margin: 2.5vh 0;
+    font-weight: 300;
+    display: flex;
+    
+    align-items: center;
+    gap: 1vw;
+    font-size: calc(0.5em + 0.5vw + 3px);
+}
+/* styles.module.css */
+.explore_plan .plans .plan_outline:first-child .plan .get_quote {
+    padding: 9.7vw 0 0.6vw 0vw !important; /* Use !important as a last resort */
+}
+.explore_plan .plans .plan_outline:last-child .plan .get_quote {
+    padding: 3.7vw 0 0.6vw 0vw !important; /* Use !important as a last resort */
+}
+ .plan .get_quote {
+    padding: 2vw 0 1.5vh 0vw; 
+    text-align: center;
+}
+.plan button.get_quote svg {
+    font-size: calc(0.8em + 0.5vw + 15px);
+    color:#00C2FF ;
+}
+
+/* ------------------------------------------------------------------ */
+.expert_colocation {
+    position: relative;
+    width: 100%;
+    padding: 3vw 5vw;
+    background: #00050A;
+    display: flex;
+}
+.expert_colocation .expert_innerdiv {
+    display: flex;
+    align-items: center;
+}
+.expert_colocation .expert_innerdiv .Description {
+    position: relative;
+    z-index: 2;
+}
+.expert_colocation .expert_innerdiv .Description h3 {
+    font-size: 38px;
+    font-weight: 700;
+    width: 42%;
+    position: relative;
+    z-index: 2;
+    line-height: 3.5vw;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    margin: 1vw 0 3vw 0;
+    -moz-text-fill-color: transparent;
+    background-image: linear-gradient(90deg, #00C2FF 42%, #0596FF 50%);
+}
+.expert_colocation_img{
+    z-index: 0;
+    position: absolute;
+    right: 0;
+}
+.expert_colocation .expert_innerdiv .expert_colocation_img div:nth_child(2) {
+    width: 100%;
+    /* height: 100%; */     
+}
+.expert_colocation .expert_innerdiv .expert_colocation_img div:nth_child(2) img {
+    width: 100%;
+    transform: translateX(-5vw) scale(1.5); 
+
+    /* height: 100%; */
+}
+.expert_colocation .expert_innerdiv .Description ul li {
+    padding: 0 0 0 0.8vw;
+    position: relative;
+    width: 630px;
+    margin-bottom: 25px;
+    color: #fff;
+    font-weight: 300;
+    font-size: calc(clamp(0.75rem, 0.895vw + 0.176rem, 1.25rem));
+}
+
+
+/* ------------------------------------------------------------------------------------- */
+.Services_design {
+    position: relative;
+    width: 100%;
+    height: 140vh;
+    padding: 3vw 5vw;
+    background-color: #00050E;
+}
+.Services_design .service_design_innerdiv .header {
+    text-align: center;
+    position: relative;
+   
+}
+
+.Services_design .service_design_innerdiv .header h3 {
+    font-size: calc(1.2em + 0.5vw + 17px);
+    position: relative;
+    font-weight: 400;
+    margin-bottom: 5vh;
+}
+.Services_design .service_design_innerdiv .header h3 span {
+    font-weight: 600;
+}
+.Services_design .service_design_innerdiv .header p {
+    text-align: center;
+    font-size: calc(0.5em + 0.5vw + 8px);
+    padding: 0 20vw;
+    font-weight: 300;
+}
+.Services_design .service_design_innerdiv  .detail_services_design {
+    width: 100%;
+    display: flex;
+    padding-top: 8vh;
+}
+.Services_design .service_design_innerdiv .detail_services_design .titles {
+    position: relative;
+    width: 31%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+/* .Services-design .service-design-innerdiv .detail-services-design .titles::after {
+    content: "";
+    position: absolute;
+    top: 10%;
+    left: 28%;
+    width: 56%;
+    height: 73%;
+    filter: blur(180px);
+    z-index: -1;
+    border-radius: 50%;
+    background: linear-gradient(183deg, rgba(0, 230, 255, 1) 44%, rgba(0, 102, 255, 1) 92%);
+} */
+
+
+.Services_design .service_design_innerdiv .detail_services_design .titles .single_server_colocation {
+    font-size: calc(1.2em + 0.5vw + 18px);
+    line-height: 8.5vh;
+    padding: 0 0 0 10vw;
+    position: relative;
+    font-weight: 600;
+}
+.Services_design .service_design_innerdiv .detail_services_design .titles .second_header .single_server_colocation {
+    line-height: 5vh;
+}
+.Services_design .service_design_innerdiv .detail_services_design .titles .second_header, .Services_design .service_design_innerdiv .detail_services_design .titles .third_header{
+    position: absolute;
+    top: 0;
+    height: 100%;
+    display: flex;
+}
+.Services_design .service_design_innerdiv  .detail_services_design .description {
+    position: relative;
+    width: 35%;
+}
+
+.Services_design .service_design_innerdiv  .detail_services_design .description .description_box {
+    position: relative;
+    /* top: 0; */
+}
+.Services_design .service_design_innerdiv  .detail_services_design .rack_destructure_design {
+    position: relative;
+    width: 37%;
+    height: 85vh;
+    transform: scale(1.28) translateX(1vw) translateY(4vh);
+}
+.Services_design .service_design_innerdiv .detail_services_design .rack_destructure_design::after {
+    content: "";
+    position: absolute;
+    top: 12%;
+    left: 18%;
+    width: 48%;
+    z-index: -1;
+    height: 50vh;
+    filter: blur(116px);
+    border-radius: 50%;
+    background: radial-gradient(circle, rgba(35, 176, 255, 1) 44%, rgba(0, 102, 255, 0) 92%);
+}
+
+.Services_design .service_design_innerdiv .detail_services_design .rack_destructure_design .server {
+        position: absolute;
+        top: 12%;
+        left: 32%;
+        width: 30%;
+        transform: scale(1.1) translateY(25vh);
+    }
+    .Services_design .service_design_innerdiv .detail_services_design .rack_destructure_design .top {
+        position: absolute;
+        width: 35.8%;
+        z-index: 2;
+        top: 10.6%;
+        left: 28.7%;
+        opacity: 0;
+    }    
+    .Services_design .service_design_innerdiv .detail_services_design .rack_destructure_design .left {
+        position: absolute;
+        width: 3%;
+        height: 69%;
+        left: 29.2%;
+        top: 11%;
+        opacity: 0;
+    }  
+ .Services_design .service_design_innerdiv  .detail_services_design .rack_destructure_design .left img {
+    width: 100%;
+    height: 100%;
+ }
+ .Services_design .service_design_innerdiv .detail_services_design .rack_destructure_design .right {
+    position: absolute;
+    top: 10.5%;
+    left: 61.5%;
+    width: 3%;
+    height: 69%;
+    opacity: 0;
+}
+ .Services_design .service_design_innerdiv  .detail_services_design .rack_destructure_design .right img {
+    width: 100%;
+    height: 100%;
+ }
+ .Services_design .service_design_innerdiv .detail_services_design .rack_destructure_design .bottom {
+    position: absolute;
+    width: 36%;
+    top: 48%;
+    left: 29%;
+    opacity: 0;
+}
+ .Services_design .service_design_innerdiv .detail_services_design .rack_destructure_design .middle {
+    position: absolute;
+    width: 36%;
+    top: 21%;
+    left: 29%;
+    opacity: 0;
+}
+.Services_design .service_design_innerdiv .detail_services_design .description .description_box .single_server_description_head {
+    font-size: calc(0.2em + 1.4vw + 6px);
+    font-weight: 500;
+    padding-right: 3vw;
+    line-height: 5.5vh;
+    margin-bottom: 2vh;
+}
+.Services_design .service_design_innerdiv .detail_services_design .description .description_box .single_server_description_subhead {
+    font-size: calc(0.2em + 0.8vw + 7px);
+    font-weight: 100;
+    margin-bottom: 5vh;
+}
+.Services_design .service_design_innerdiv .detail_services_design .description .multi_server, .Services_design .service_design_innerdiv .detail_services_design .description .full_rack {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+.Services_design .service_design_innerdiv .detail_services_design .description {
+    display: flex;
+    align-items: center;
+}
+.Services_design .service_design_innerdiv .detail_services_design .description .description_box button {
+    font-size: 1.8vw;
+  
+}
+.Services_design .service_design_innerdiv .detail_services_design .description .description_box button svg {
+    font-size: 2.8vw;
+}
+
+/* -------------------------------------------------------------------------------------------------------------------------- */
+.colo_boom {
+    width: 100%;
+    position: relative;
+    background-color: #00050E;
+
+}
+.colo_boom .colo_boom_container {
+    padding: 3vw 5vw;
+    color: #fff;
+}
+.colo_boom .colo_boom_container .heading {
+    position: relative;
+}
+.colo_boom .colo_boom_container .heading h3{
+    font-size: calc(clamp(1.875rem, 3.356vw - 0.277rem, 3.75rem));
+    text-align: center;
+    padding-bottom: 1vw;
+    margin-bottom:3vw ;
+    font-weight: 500;
+    z-index: 2;
+    position: relative;
+}
+.colo_boom .colo_boom_container .description p {
+    font-size: calc(clamp(2.125rem, 3.342vw + 0.264rem, 1.875rem));
+    /* margin-bottom: 1.5vw; */
+    line-height: 4vw;
+}
+.colo_boom .colo_boom_container .description p span 
+{
+    font-weight: 600;
+    background-image: linear-gradient(90deg, #00C2FF 42%, #0596FF 50%);
+    background-size: 100%;
+    background-repeat: repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+}
+
+
+/* Mobile Responsive css start */
+@media (max-width: 1400px){}
+@media (max-width: 1280px){}
+@media (max-width: 1024px){
+.colo_boom .colo_boom_container .description p {font-size: 22px; text-align: center;}
+.powerOfcolocation .PowerOfColocation_innerdiv .colocation_header {padding: 4vw 5vw 5vw 5vw;}
+.Horizontol-slider .slide-list .slide-list-inner {display: flex; justify-content: space-around; flex-wrap: wrap;}
+ .Horizontol-slider .slide-list {margin-left: 0 !important; }
+.Horizontol-slider .slide-list .slide-list-inner .slide-item {width: 100%; height: auto; position: relative; margin: 2vw 2vw;}
+.powerOfcolocation .PowerOfColocation-innerdiv .Horizontol-slider .slide-list .slide-list-inner .slide-item .image-div {height: auto;}
+
+.powerOfcolocation .PowerOfColocation-innerdiv  .Horizontol-slider .slide-list .slide-list-inner .slide-item {width: 100%;height: auto;}
+.powerOfcolocation .PowerOfColocation-innerdiv .colocation-header .third-section-head{font-size: 38px; opacity: 1 !important; margin-bottom: 30px; line-height: 45px;}
+.powerOfcolocation .PowerOfColocation-innerdiv .colocation-header .third-section-subtitle {position: relative; opacity: 1 !important;padding: 0;}
+.powerOfcolocation .PowerOfColocation-innerdiv .colocation-header .third-section-question{opacity: 1 !important; font-size: 23px; margin-bottom: 30px;}
+.powerOfcolocation .PowerOfColocation-innerdiv .Horizontol-slider .slide-list .slide-list-inner .slide-item .slide-title {font-size: 35px;}
+.world-class-data-center {padding: 2vh 0;}
+.DC-map {height: auto;}
+.world-class-data-center .world-class-data-center-innerdiv .Data-center-service-counter {padding: 0 8vw; margin-top: 5vh;}
+.DC-map .nashik-Data-center { top: 20vh;left: 43vw;}
+.DC-map .map-image img {transform: scale(2) translateY(20px);}
+.DC-map::after { background: linear-gradient(180deg, rgba(0, 5, 14, 1) 2%, rgba(0, 0, 0, 0) 79%);}
+.DC-map .mohali-Data-center { top: 8vh;left: 45vw;}
+.DC-map .mumbai-Data-center { top: 22vh; left: 41vw;}
+.DC-map .banglore-Data-center {top: 29vh; left: 47vw;}
+.DC-map .airoli-Data-center {top: 23vh;left: 43vw;}
+.expert-colocation .expert-innerdiv { display: flex; align-items: center; flex-wrap: wrap;}
+.expert-colocation .expert-innerdiv .Description h3 { font-size: 35px;line-height: 45px;}
+.expert-colocation { padding: 8vw 5vw;}
+.expert-colocation .expert-innerdiv .Description ul li{font-size: 20px;}
+.expert-colocation-img {display: none;}
+.explore-plan .plans {display: block; padding:  0 5vw;}
+.explore-plan .plans .plan {width: 100%; padding: 5vw;}
+.explore-plan .plan h2 {font-size: 45px;}
+.explore-plan .plan h2::after{bottom: -1vh;}
+.plan ul li:nth-child(1) {font-size: 30px;}
+.plan ul li {font-size: 25px;}
+.explore-plan .header h3 {font-size: 40px; padding-bottom: 3vw;}
+.explore-plan .plan h2 span{font-size: 22px;}
+.explore-plan .plans .plan-outline{margin-bottom: 2vh;}
+.CTA-bottom-line {width: 25vw; left: 22%;}
+.horizontol-slider {min-block-size: 15vh;}
+.absolute {width: 15vw !important;  left: 0 !important}
+
+
+}
+@media (max-width: 991px){
+.Colocation-banner .banner-video video { position: absolute; top: 0; width: 100%; height: 100%; object-fit: cover;}
+.Colocation-banner .banner-video { width: 100%; height: 100vw; }
+
+}
+@media (max-width: 767px){
+.Colocation-banner .banner-content .Manage-secu-banner-text { font-size: 32px; margin-bottom: 4vh; margin-top: 9vh;}
+.colo-boom .colo-boom-container .heading h3{font-size: 25px;}
+.Colocation-banner .banner-video video { position: absolute; top: 0; width: 100%; height: 100vh; object-fit: cover;}
+.Colocation-banner .banner-content {position: absolute; top: 0; right: 0; width: 100%; height: 100%; display: flex; flex-direction: column;
+justify-content: center; padding-right: 5vw;}
+.powerOfcolocation .PowerOfColocation-innerdiv  .Horizontol-slider .slide-list .slide-list-inner .slide-item  .image-div {height: auto;}
+.colo-boom .colo-boom-container .description p {line-height: 38px; margin-top: 2vh;}  
+.world-class-data-center .world-class-data-center-innerdiv .header h3{font-size: 22px;}
+.powerOfcolocation .PowerOfColocation-innerdiv .colocation-header .third-section-subtitle {line-height: 38px;}  
+.world-class-data-center .world-class-data-center-innerdiv .Data-center-service-counter .counter-grid {display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; width: 50%; margin: 0 auto;}
+.world-class-data-center .world-class-data-center-innerdiv .Data-center-service-counter { width: 100%; padding: 0 5vw; margin-top: 10vh;}
+.world-class-data-center .world-class-data-center-innerdiv .Data-center-service-counter .counter-grid .counter-box {display: flex;
+align-items: center; width: 100%; justify-content: center; text-wrap: nowrap;}
+.world-class-data-center .world-class-data-center-innerdiv .Data-center-service-counter .counter-grid .counter-box .number-title {font-size: calc(clamp(0.75rem, 1.342vw - 0.111rem, 1.5rem));
+width: 100%; padding-left: 1vw;}
+.expert-colocation .expert-innerdiv {display: flex; flex-wrap: wrap;}
+.expert-colocation .expert-innerdiv .Description {width: 100%;}
+.expert-colocation .expert-innerdiv .Description ul li::before {content: "";position: absolute; top: 7px; left: -1%; width: 4px; height: 4px; border-radius: 50%; background-color: #fff;}
+.expert-colocation .expert-innerdiv .Description h3 {font-size: 25px; line-height: 35px; margin-bottom: 3vh;}
+.explore-plan .plan h2 {font-size: 33px;}
+.plan ul li:nth-child(1) {font-size: 25px;}
+.plan ul li {font-size: 20px;}
+.explore-plan .header h3 {font-size: 30px;}
+.expert-colocation .expert-innerdiv .Description ul li {padding: 0 0 0 15px; font-size: 14px;margin-bottom: 15px;}
+.explore-plan .plans {display: block; gap: 10px; padding: 2vw;}
+/* .explore-plan .plan h2::after { display: none;} */
+.explore-plan .plans .plan {width: 100%; padding: 10vw;}
+.absolute {width: 100% !important;  left: 0 !important}
+.banner_cta_line {width: 30vw !important;}
+.Horizontol-slider .slide-list .slide-list-inner {display: flex; justify-content: space-around; flex-wrap: wrap;}
+.powerOfcolocation .PowerOfColocation-innerdiv  .Horizontol-slider .slide-list .slide-list-inner .slide-item {width: 100%; margin: 2vw; height: auto;}
+.Horizontol-slider .slide-list {margin-left: 0 !important; }
+.Horizontol-slider .slide-list .slide-list-inner .slide-item {width: 100%; height: 100%; position: relative; margin: 2vw 2vw;}
+.DC-map {height: auto; overflow: hidden;}
+.powerOfcolocation .PowerOfColocation-innerdiv .Horizontol-slider .slide-list .slide-list-inner .slide-item .slide-title {font-size: 25px; text-align: center;}
+.Colocation-banner { height: 100vw;}
+.powerOfcolocation .PowerOfColocation-innerdiv .colocation-header .third-section-head{ opacity: 1 !important; line-height: 45px;}
+.powerOfcolocation .PowerOfColocation-innerdiv .colocation-header .third-section-subtitle {position: relative; opacity: 1 !important; padding: 0;}
+.powerOfcolocation {margin-top: 15%;}
+
+}
+@media (max-width: 667px){
+
+}
+@media (max-width: 480px){
+
+}
+@media (max-width: 360px){}
+
+/* App Css */
+
+.body{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  background-color: #000819;
+  font-family: "Urbanist", sans-serif;
+  color: #fff;
+}
+
+.root {
+  --splash-screen-font-size : calc(clamp(2.188rem, 3.915vw - 0.323rem, 4.375rem))
+}
+
+
+/* ----------------------------------partner -------------------------- */
+.partner {
+  position: relative;
+  width: 100vw;
+  padding: 3vw 5vw;
+}
+
+.gradient-partner {
+  position: absolute;
+  top: 4vh;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+
+.Leanding-page-footer {
+  position: relative;
+
+}
+.Leanding-page-footer::before {
+  content: "";
+  position: absolute;
+  top: -8%;
+  left: -6%;
+  width: 123%;
+  height: 22vh;
+  z-index: 5;
+  background: linear-gradient(180deg, rgba(6, 39, 0, 1) 22%, rgba(0, 0, 0, 1) 98%);
+  filter: blur(22);
+  filter: blur(25px);
+}
+.contact-us-banner-btn {
+  position: fixed;
+  color: #fff;
+  bottom: 7%;
+  padding: 0.5vw 1.2vw;
+  border-radius: 10px;
+  background: linear-gradient(352deg, rgb(0 135 255) 22%, rgb(0 217 255) 98%);
+  right: 3%;
+  font-size: calc(clamp(0.688rem, 1.23vw - 0.102rem, 1.375rem));
+  font-weight: 600;
+  letter-spacing: 1px;
+  z-index: 999;
+}
+
+.cursorDefault {
+  pointer-events:none;
+  width:6vw;
+  height:6vw;
+  font-size: 0.8vw;
+  position:fixed;
+  color: #fff;
+  top: -3vw;
+  left: 1vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background: rgba(42, 40, 40, 0.311);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(4.2px);
+  -webkit-backdrop-filter: blur(7.2px);
+  z-index:9999999;
+  clip-path: circle(50% at 50% 50%);
+  transition: all 0.1s cubic-bezier(0, 0, 1, 1);
+}
+
+
+.cursorDefault span:first-child {
+  font-size:  calc(clamp(0.75rem, 0.895vw + 0.176rem, 1.25rem));
+  font-weight:100 ;
+}
+
+.cursorDefault div {
+  width: 5vw;
+  text-align: center;
+
+}
+.cursorDefault span:last-child {
+  font-size: calc(clamp(0.938rem, 1.119vw + 0.22rem, 1.563rem));
+  font-weight: 500;
+  width: 7vw;
+  text-align: center;
+}
+
+.indicator-container {
+  position: fixed;
+  width: 100%;
+  z-index: 99;
+  bottom: 6%;
+  display: flex;
+  justify-content: center;
+}
+.scroll-down-symbol {
+ 
+  z-index: 5;
+  
+}
+.scrollDownSymbol {
+    position: relative;
+    font-size: 1vw;
+    color: #fff;
+    top: 1vh;
+    left: 0.5vw;
+  }
+  
+  .scrollDownSymbol div:nth-child(3) {
+    position: relative;
+    font-size: 1vw;
+    color: #fff;
+    top: 1vh;
+    left: 0.5vw;
+  }
+  
+  .scrollDownSymbol div:first-child {
+    width: 1.5vw;
+    height: 1.5vw;
+    background-color: transparent;
+    z-index: 80;
+    bottom: 25px;
+    position: absolute;
+    border-width: 0 0.20em 0.20em 0;
+    border-style: solid;
+    border-color: antiquewhite;
+    animation: scrolldown 1.2s ease-in-out infinite 0.15s;
+    left: 50%;
+    transform: translateY(0%) rotate(45deg);
+    opacity: 0;
+  }
+  
+  .scrollDownSymbol div:nth-child(2) {
+    width: 1.5vw;
+    height: 1.5vw;
+    background-color: transparent;
+    z-index: 80;
+    bottom: 40px;
+    position: absolute;
+    border-width: 0 0.20em 0.20em 0;
+    border-style: solid;
+    border-color: antiquewhite;
+    animation: scrolldown 1.2s ease-in-out infinite;
+    left: 50%;
+    transform: translateY(0%) rotate(45deg);
+    opacity: 0;
+  }
+  
+@keyframes scrolldown {
+            0%{
+                transform: translateY(20%) rotate(45deg);
+                opacity: 0.7;
+            }
+            50%{
+                transform: translateY(0%) rotate(45deg);
+                opacity: 0.2;
+            }
+            100%{
+                transform: translateY(20%) rotate(45deg);
+                opacity: 0.7;
+            }
+        }
+ /* -------------------------------------------------CTA btn ------------------------------------------------- */
+ .CTA_button {
+ 
+    margin: 0;
+    height: auto;
+    background: transparent;
+    padding: 0;
+    border: none;
+    cursor: pointer;
+  
+ }
+.undefined{
+    display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: flex-end;
+}
+ .CTA_button {
+  --border-right: 6px;
+  --text-stroke-color: rgba(255, 255, 255, 0.152);
+  --animation-color: #00d9ff;
+  --fs-size: 1.2vw;
+  letter-spacing: 3px;
+  text-decoration: none;
+  /* font-size: var(--fs-size); */
+  font-family: "Urbanist", sans-serif;
+  position: relative;
+  text-transform: uppercase;
+  color: transparent;
+  -webkit-text-stroke: 1px var(--text-stroke-color);
+}
+.CTA_button .hover_text {
+  position: absolute;
+  box-sizing: border-box;
+  content: attr(data-text);
+  color: var(--animation-color);
+  width: 0%;
+  inset: 0;
+  border-right: var(--border-right) solid var(--animation-color);
+  overflow: hidden;
+  transition: 0.5s;
+  -webkit-text-stroke: 1px var(--animation-color);
+  animation-name: mymove;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+/* hover */
+.CTA_button:hover .hover_text {
+  animation: none;
+  width: 100%;
+  filter: drop-shadow(0 0 23px var(--animation-color))
+}
+
+@keyframes mymove {
+  0%   {width: 0%;}
+  50% {
+    width: 100%;
+    filter: drop-shadow(0 0 23px var(--animation-color))
+  }
+  100% {
+    width: 0%;
+  }
+ }
+/* ------------------------------------Media Query----------------------------------------- */
+
+@media (max-width: 767px){
+  .contact-us-banner-btn {
+    position: fixed;
+    color: #fff;
+    bottom: 7%;
+    padding: 1.8vw 2.5vw;
+    border-radius: 10px;
+    background: linear-gradient(352deg, rgb(0 135 255) 22%, rgb(0 217 255) 98%);
+    right: 5%;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    z-index: 999;
+  }
+}
