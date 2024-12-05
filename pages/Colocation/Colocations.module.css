@@ -641,11 +641,36 @@ padding-left: 1vw;
 }
 /* styles.module.css */
 .explore_plan .plans .plan_outline:first-child .plan .get_quote {
-    padding: 9.7vw 0 0.6vw 0vw !important; /* Use !important as a last resort */
+    padding: 9.7vw 0 0.6vw 0vw !important; 
+}
+.explore_plan .plans .plan_outline:nth-child(odd) .plan:before {
+    content: "";
+    position: absolute;
+    top: -13%;
+    border-radius: 50%;
+    width: 100%;
+    overflow: hidden;
+    height: 20%;
+    left: 0;
+    filter: blur(105px);
+    background: linear-gradient(96deg,#00e6ff -18%,#06f 104%);
+}
+.explore_plan .plans .plan_outline:nth-child(2n) .plan:before {
+    content: "";
+    position: absolute;
+    top: -15%;
+    border-radius: 50%;
+    width: 100%;
+    overflow: hidden;
+    height: 31%;
+    left: 0;
+    filter: blur(78px);
+    background: linear-gradient(96deg,#00e6ff -18%,#06f 104%);
 }
 .explore_plan .plans .plan_outline:last-child .plan .get_quote {
     padding: 3.7vw 0 0.6vw 0vw !important; /* Use !important as a last resort */
 }
+
  .plan .get_quote {
     padding: 2vw 0 1.5vh 0vw; 
     text-align: center;
@@ -1219,16 +1244,16 @@ width: 100%; padding-left: 1vw;}
             }
         }
  /* -------------------------------------------------CTA btn ------------------------------------------------- */
- .CTA_button {
- 
-    margin: 0;
-    height: auto;
-    background: transparent;
-    padding: 0;
-    border: none;
-    cursor: pointer;
-  
- }
+    .CTA_button {
+    
+        margin: 0;
+        height: auto;
+        background: transparent;
+        padding: 0;
+        border: none;
+        cursor: pointer;
+    
+    }
 .undefined{
     display: flex;
         flex-direction: row;

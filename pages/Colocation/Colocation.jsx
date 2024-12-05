@@ -1,5 +1,4 @@
 "use client";
-
 import power_first from "../../public/colocation/colocation-img/first.jpg";
 import power_second from "../../public/colocation/colocation-img/second.jpg";
 import power_third from "../../public/colocation/colocation-img/third.jpg";
@@ -24,7 +23,7 @@ import gsap from "gsap";
 import { ScrollToPlugin} from "gsap/all";
 import CountUp from "react-countup";
 import { ReactLenis, useLenis } from "@studio-freight/react-lenis";
-// import Partner from '../Partner/Partner'
+import Partner from '../Partner/Partner'
 // import HeaderTwo from '../Navbar/HeaderTwo'
 // import banner_video from "../../public/banner-video.mp4";
 // import HeadingBottomLine from '../../components/ui/HeadingBottomLine'
@@ -33,8 +32,8 @@ import styles from "./Colocations.module.css";
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 // import * as demoActions from '../../Redux/Actions/DemoActions.js'
 // import Header from '../Header/Header'
-// import Topsection from '../FinalFooter/Topsection'
-// import FooterFinal from '../FinalFooter/FooterFinal'
+import Topsection from '../FinalFooter/Topsection'
+import FooterFinal from '../FinalFooter/FooterFinal';
 import partner1 from "../../public/colocation/logo1.png";
 import partner2 from "../../public/colocation/logo2.png";
 import partner3 from "../../public/colocation/logo3.png";
@@ -1085,7 +1084,7 @@ export default function Colocation() {
             </div>
             <div className={styles.plans}>
               <div className={styles.plan_outline}>
-                <div className={styles.plan}>
+                <div className={`${styles.plan} ${styles.popular}`}>
                   <h2>Pay-As-You-Grow</h2>
                   <ul>
                     <li>What you will Get</li>
@@ -1131,7 +1130,7 @@ export default function Colocation() {
                 </div>
               </div>
             <div className={styles.plan_outline}>
-              <div className={`${styles.plan} ${styles.popular}`}>
+              <div className={styles.plan}>
                 <span>Most Popular</span>
                 <h2>
                   {" "}
@@ -1186,7 +1185,7 @@ export default function Colocation() {
                 </div>
               </div></div>
               <div className={styles.plan_outline}>
-                <div className={styles.plan}>
+                <div className={`${styles.plan} ${styles.popular}`}>
                   <h2>
                     Full Rack <span>Colocation Services</span>
                   </h2>
@@ -1242,12 +1241,12 @@ export default function Colocation() {
               </div>
           </section>
 
-          {/* <Partner
+          <Partner
           title={"They Trust Us, Because We Deliver"}
           color={"#00050E"}
           logosArray={logos}
-        /> */}
-          {/* <Topsection
+        />
+          <Topsection
           question={
             "The Right Partner, With The Right Expertise, Can Get Your Business To New Heights"
           }
@@ -1255,8 +1254,8 @@ export default function Colocation() {
             "Don’t miss your peak. Let’s connect and begin our partnership!!!"
           }
           color={"#00050E"}
-        /> */}
-          {/* <FooterFinal BgColor={"#00050E"} /> */}
+        />
+          <FooterFinal BgColor={"#00050E"} />
         </ReactLenis>
       </div>
     </>
