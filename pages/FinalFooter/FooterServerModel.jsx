@@ -1,5 +1,5 @@
-import { Canvas } from "@react-three/fiber"
-// import FooterServer from "../../../public/FooterServer";
+// import { Canvas } from "@react-three/fiber"
+import FooterServer from "./FooterServer";
 import { Suspense, useEffect, useRef, useState } from "react"
 
 
@@ -49,7 +49,7 @@ export default function FooterServerModel() {
      <directionalLight color={"#ffffff"} position={[0,10,-2]} rotation={[0,0,0]}  intensity={0}  />
 
 <Suspense fallback={<h1>loading</h1>}>
-{/* <FooterServer  /> */}
+<FooterServer  />
 </Suspense>
 </Canvas>}
 

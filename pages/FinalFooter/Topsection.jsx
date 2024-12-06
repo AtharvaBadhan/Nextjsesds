@@ -14,7 +14,7 @@ export default function Topsection({
 }) {
   return (
     <section style={{ background: color }} className={styles.question_answer}>
-      <Suspense fallback={<h1>laoding</h1>}>
+      <Suspense fallback={<h1>loading</h1>}>
         {/* <FooterServerModel /> */}
       </Suspense>
 

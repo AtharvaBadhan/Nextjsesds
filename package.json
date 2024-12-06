@@ -9,8 +9,10 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@react-three/drei": "^9.120.0",
     "@react-three/fiber": "^8.17.10",
     "bootstrap": "^5.3.3",
+    "file-loader": "^6.2.0",
     "gsap": "^3.12.5",
     "next": "^15.0.3",
     "react": "^18.2.0",

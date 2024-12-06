@@ -80,7 +80,7 @@
     color:#00A3FF;
     font-size: calc(clamp(0.875rem, 1.566vw - 0.129rem, 1.75rem));
     font-weight: 600;
-
+    cursor: pointer;
 }
 .footer_final .footer_final_container .right_side .contact_number {
     display: flex;
@@ -147,7 +147,7 @@
 }
 @media (max-width: 667px){}
 @media (max-width: 480px){
-.footer_final .footer_final_container .right_side .innerpage_link a {font-size: 12px;}
+.footer_final .footer_final_container .right_side .innerpage_link a {font-size: 12px; cursor: pointer;}
 .footer_final .footer_final_container .right_side .contact_number div p { font-size: 12px;}
 }
 @media (max-width: 360px){
